@@ -1,17 +1,20 @@
 <template>
-  <RouterView />
+  <div>
+    <RouterView />
+  </div>
 </template>
 
 <style scoped></style>
 
 <script>
 import { ref, onMounted } from 'vue'
-import ribbon from './components/ribbon.js'
+
 export default {
   setup() {
-    const message = ref('你好，wps加载项')
+    const message = ref('AI财报分析')
+
     onMounted(() => {
-      window.ribbon = ribbon
+      console.log('[AI财报] Web应用已加载')
     })
 
     return {
@@ -20,4 +23,3 @@ export default {
   }
 }
 </script>
-

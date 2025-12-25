@@ -1,0 +1,12 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="ribbon.OnAddinLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <!-- 在WPS原生"开始"菜单中添加AI财报分析功能（支持Word） -->
+            <tab idMso="TabHome">
+                <group id="grpAIFinancial" label="AI财报">
+                    <button id="btnAIFinancialAnalysis" label="AI财报分析" onAction="ribbon.OnAction" getImage="ribbon.GetImage" size="large"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

@@ -1,0 +1,1 @@
+import{_ as s,c as o,a as e,o as t}from"./index-5oa8seDh.js";const c={name:"DialogPage"},n={class:"dialog-placeholder"};function l(r,a,d,i,p,_){return t(),o("div",n,[...a[0]||(a[0]=[e("div",{class:"message"},"Dialog 页面已废用",-1),e("p",null,"请使用右侧TaskPane中的AI财报分析功能",-1)])])}const g=s(c,[["render",l],["__scopeId","data-v-1284bacd"]]);export{g as default};

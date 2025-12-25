@@ -6,14 +6,13 @@
 
 <script>
 export default {
-  name: 'HelloWps',
+  name: 'RootComponent',
   data() {
     return {
-      msg: '欢迎来到wps加载项的世界!'
+      msg: 'AI财报分析'
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped></style>
